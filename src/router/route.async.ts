@@ -12,6 +12,15 @@ const asyncRoutes: Array<RouteRecordRaw> = [
     component: () => import('@/views/home/index.vue'),
   },
   {
+    path: '/',
+    name: 'home',
+    meta: {
+      title: '',
+      icon: '',
+    },
+    component: () => import('@/views/home/index.vue'),
+  },
+  {
     path: '/process',
     name: 'process',
     meta: {
